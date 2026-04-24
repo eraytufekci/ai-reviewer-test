@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub AI Reviewer - Kodunuzu Yapay Zeka İncelesin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --bg: #0f172a;
+            --text: #f8fafc;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header {
+            padding: 60px 0;
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p.subtitle {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+        .hero-image {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            margin-bottom: 60px;
+        }
+        .price-tag {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 18px 36px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: transform 0.2s;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 80px;
+            text-align: left;
+        }
+        .feature-card {
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .feature-card h3 {
+            margin-top: 0;
+            color: #818cf8;
+        }
+        footer {
+            margin-top: 100px;
+            padding-bottom: 40px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GitHub AI Reviewer</h1>
+            <p class="subtitle">Bir kahve fiyatına, 7/24 yanınızda olan kıdemli bir yazılım ortağı. Kod inceleme sürecinizi otomatiğe bağlayın.</p>
+            <div class="price-tag">9.90$</div>
+            <a href="#" class="cta-button">Hemen Sahip Ol</a>
+        </header>
+
+        <img src="hero.png" alt="AI Reviewer Hero" class="hero-image">
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>🚀 Anlık İnceleme</h3>
+                <p>Pull Request açıldığı anda AI devreye girer ve kodunuzu saniyeler içinde analiz eder.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔍 Hata Avcısı</h3>
+                <p>ZeroDivision, verimsiz döngüler ve güvenlik açıklarını saniyeler içinde tespit eder.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🛠️ Kolay Kurulum</h3>
+                <p>Docker desteği sayesinde herhangi bir sunucuda tek komutla çalıştırılabilir.</p>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2026 GitHub AI Reviewer. Tüm hakları saklıdır.
+        </footer>
+    </div>
+</body>
+</html>
